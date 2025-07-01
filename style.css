@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+#map {
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #f0f0f0;
+}
+
+th, td {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.leaflet-tooltip {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #ffffff;
+  border: 1px solid #4CAF50;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  white-space: nowrap;
+}
+
+.leaflet-tooltip strong {
+  color: #45a049;
+}

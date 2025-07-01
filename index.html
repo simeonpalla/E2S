@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>E2S Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <h1>E2S Dashboard</h1>
+  <label for="teamSelector">Select Team: </label>
+  <select id="teamSelector">
+    <option value="script">Script Team</option>
+    <option value="editor">Editors Team</option>
+    <option value="launch">Launch Event</option>
+  </select>
+  <div id="map" style="height: 500px;"></div>
+  <div id="tableContainer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
