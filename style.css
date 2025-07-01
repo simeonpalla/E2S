@@ -43,3 +43,27 @@ th {
 .leaflet-tooltip strong {
   color: #45a049;
 }
+
+/* Enhanced dropdown styling */
+#teamSelector {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 8px;
+  min-width: 200px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Optional: Style the options for consistency */
+#teamSelector option {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #ffffff;
+  color: #333;
+}
